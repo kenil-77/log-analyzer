@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-02-24T16:13:30.076056",
+  "summary": {
+    "total_failed": 20,
+    "total_successful": 4,
+    "suspicious_ips": 2
+  },
+  "brute_force_suspects": {
+    "192.168.1.100": {
+      "count": 10,
+      "targeted_users": [
+        "root",
+        "admin"
+      ],
+      "first_seen": "Jun 10 14:23:01",
+      "last_seen": "Jun 10 14:23:09"
+    },
+    "203.0.113.42": {
+      "count": 6,
+      "targeted_users": [
+        "root",
+        "admin"
+      ],
+      "first_seen": "Jun 10 14:30:01",
+      "last_seen": "Jun 10 14:30:05"
+    }
+  },
+  "failed_logins": [
+    {
+      "line_number": 1,
+      "timestamp": "Jun 10 14:23:01",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4521",
+      "raw": "Jun 10 14:23:01 myserver sshd[1234]: Failed password for root from 192.168.1.100 port 4521 ssh2"
+    },
+    {
+      "line_number": 2,
+      "timestamp": "Jun 10 14:23:03",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4522",
+      "raw": "Jun 10 14:23:03 myserver sshd[1235]: Failed password for root from 192.168.1.100 port 4522 ssh2"
+    },
+    {
+      "line_number": 3,
+      "timestamp": "Jun 10 14:23:05",
+      "user": "admin",
+      "ip": "192.168.1.100",
+      "port": "4523",
+      "raw": "Jun 10 14:23:05 myserver sshd[1236]: Failed password for invalid user admin from 192.168.1.100 port 4523 ssh2"
+    },
+    {
+      "line_number": 4,
+      "timestamp": "Jun 10 14:23:07",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4524",
+      "raw": "Jun 10 14:23:07 myserver sshd[1237]: Failed password for root from 192.168.1.100 port 4524 ssh2"
+    },
+    {
+      "line_number": 5,
+      "timestamp": "Jun 10 14:23:09",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4525",
+      "raw": "Jun 10 14:23:09 myserver sshd[1238]: Failed password for root from 192.168.1.100 port 4525 ssh2"
+    },
+    {
+      "line_number": 7,
+      "timestamp": "Jun 10 14:30:01",
+      "user": "root",
+      "ip": "203.0.113.42",
+      "port": "8800",
+      "raw": "Jun 10 14:30:01 myserver sshd[1241]: Failed password for root from 203.0.113.42 port 8800 ssh2"
+    },
+    {
+      "line_number": 8,
+      "timestamp": "Jun 10 14:30:03",
+      "user": "root",
+      "ip": "203.0.113.42",
+      "port": "8801",
+      "raw": "Jun 10 14:30:03 myserver sshd[1242]: Failed password for root from 203.0.113.42 port 8801 ssh2"
+    },
+    {
+      "line_number": 9,
+      "timestamp": "Jun 10 14:30:05",
+      "user": "admin",
+      "ip": "203.0.113.42",
+      "port": "8802",
+      "raw": "Jun 10 14:30:05 myserver sshd[1243]: Failed password for invalid user admin from 203.0.113.42 port 8802 ssh2"
+    },
+    {
+      "line_number": 11,
+      "timestamp": "Jun 10 14:35:01",
+      "user": "root",
+      "ip": "45.33.32.156",
+      "port": "9000",
+      "raw": "Jun 10 14:35:01 myserver sshd[1245]: Failed password for root from 45.33.32.156 port 9000 ssh2"
+    },
+    {
+      "line_number": 12,
+      "timestamp": "Jun 10 14:35:03",
+      "user": "test",
+      "ip": "45.33.32.156",
+      "port": "9001",
+      "raw": "Jun 10 14:35:03 myserver sshd[1246]: Failed password for invalid user test from 45.33.32.156 port 9001 ssh2"
+    },
+    {
+      "line_number": 13,
+      "timestamp": "Jun 10 14:35:05",
+      "user": "ubuntu",
+      "ip": "45.33.32.156",
+      "port": "9002",
+      "raw": "Jun 10 14:35:05 myserver sshd[1247]: Failed password for invalid user ubuntu from 45.33.32.156 port 9002 ssh2"
+    },
+    {
+      "line_number": 14,
+      "timestamp": "Jun 10 14:35:07",
+      "user": "root",
+      "ip": "45.33.32.156",
+      "port": "9003",
+      "raw": "Jun 10 14:35:07 myserver sshd[1248]: Failed password for root from 45.33.32.156 port 9003 ssh2"
+    },
+    {
+      "line_number": 15,
+      "timestamp": "Jun 10 14:36:00",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4521",
+      "raw": "Jun 10 14:36:00 myserver sshd[1249]: Failed password for root from 45.33.32.156 port 9004 ssh2Jun 10 14:23:01 myserver sshd[1234]: Failed password for root from 192.168.1.100 port 4521 ssh2"
+    },
+    {
+      "line_number": 16,
+      "timestamp": "Jun 10 14:23:03",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4522",
+      "raw": "Jun 10 14:23:03 myserver sshd[1235]: Failed password for root from 192.168.1.100 port 4522 ssh2"
+    },
+    {
+      "line_number": 17,
+      "timestamp": "Jun 10 14:23:05",
+      "user": "admin",
+      "ip": "192.168.1.100",
+      "port": "4523",
+      "raw": "Jun 10 14:23:05 myserver sshd[1236]: Failed password for admin from 192.168.1.100 port 4523 ssh2"
+    },
+    {
+      "line_number": 18,
+      "timestamp": "Jun 10 14:23:07",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4524",
+      "raw": "Jun 10 14:23:07 myserver sshd[1237]: Failed password for root from 192.168.1.100 port 4524 ssh2"
+    },
+    {
+      "line_number": 19,
+      "timestamp": "Jun 10 14:23:09",
+      "user": "root",
+      "ip": "192.168.1.100",
+      "port": "4525",
+      "raw": "Jun 10 14:23:09 myserver sshd[1238]: Failed password for root from 192.168.1.100 port 4525 ssh2"
+    },
+    {
+      "line_number": 21,
+      "timestamp": "Jun 10 14:30:01",
+      "user": "root",
+      "ip": "203.0.113.42",
+      "port": "8800",
+      "raw": "Jun 10 14:30:01 myserver sshd[1241]: Failed password for root from 203.0.113.42 port 8800 ssh2"
+    },
+    {
+      "line_number": 22,
+      "timestamp": "Jun 10 14:30:03",
+      "user": "root",
+      "ip": "203.0.113.42",
+      "port": "8801",
+      "raw": "Jun 10 14:30:03 myserver sshd[1242]: Failed password for root from 203.0.113.42 port 8801 ssh2"
+    },
+    {
+      "line_number": 23,
+      "timestamp": "Jun 10 14:30:05",
+      "user": "root",
+      "ip": "203.0.113.42",
+      "port": "8802",
+      "raw": "Jun 10 14:30:05 myserver sshd[1243]: Failed password for root from 203.0.113.42 port 8802 ssh2"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+BRUTE FORCE DETECTION RESULTS
+IP Address,Total Attempts,Users Targeted,First Seen,Last Seen,Status
+192.168.1.100,10,"root, admin",Jun 10 14:23:01,Jun 10 14:23:09,FLAGGED
+203.0.113.42,6,"root, admin",Jun 10 14:30:01,Jun 10 14:30:05,FLAGGED
+45.33.32.156,4,"root, test, ubuntu",Jun 10 14:35:01,Jun 10 14:35:07,FLAGGED
+
+SUCCESSFUL LOGINS
+Timestamp,Username,IP Address
+Jun 10 14:25:00,alice,10.0.0.5
+Jun 10 14:31:00,bob,10.0.0.6
+Jun 10 14:25:00,alice,10.0.0.5
+Jun 10 14:31:00,bob,10.0.0.6
